@@ -8,10 +8,10 @@
     "axios",
     "http"
   ],
-  "homepage": "https://github.com/xyyvick/xy-request",
+  "homepage": "https://github.com/xiaoyi1255/xy-request",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xyyvick/xy-request"
+    "url": "https://github.com/xiaoyi1255/xy-request.git"
   },
   "main": "index.js",
   "scripts": {
