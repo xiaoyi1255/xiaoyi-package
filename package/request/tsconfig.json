@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // 输出目录
+    "module": "CommonJS", // 模块系统
+    "target": "ES5", // 将 ES6 代码转换为 ES5
+    "declaration": true, // 生成类型声明文件（.d.ts）
+    "sourceMap": true, // 生成 source maps
+    "strict": true, // 启用所有严格的类型检查选项
+    "esModuleInterop": true, // 允许从 CommonJS 导入默认模块
+    "moduleResolution": "node", // 模块解析策略
+    "skipLibCheck": true // 跳过库的类型检查
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/__tests__/*"]
+}
